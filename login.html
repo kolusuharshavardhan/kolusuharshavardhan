@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BOUNCE GAME</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="nav__container">
+                <a id="nav__log">BOUNCE EXTREME</a>
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span> <span class="bar"></span>
+            </div>
+            <u1 class="nav__menu">
+            <li class="nav__item">
+               <a href="home.html" class="nav__links"> home</a>
+            </li>
+               <li class="nav__item">
+               <a href="aboutgame.html" class="nav__links"> aboutgame</a>
+               </li>
+               <li class="nav__item">
+               <a href="scoreboard.html" class="nav__links">scoreboard</a>
+               </li>
+               <li class="nav__item">
+               <a href="login.html" class="nav__links"> login</a>
+            </li>
+        </u1>
+            </div>
+        </nav>
+        <div class="web">
+            <div class="details">
+                <div class="form-box">
+                    <div class="form">
+                        <form class="login-form">
+                            <center><h1 class="main-heading"><u>Login Form</u></h1></center>
+                            <input type="text"placeholder="user name"/>
+                            <input type="password"placeholder="password"/>
+                            <button href="home.html" >Login</button>
+                            <p class="message"><u>Not Registered?</u> <a href="#">Register</a></p>
+                        </form>
+                        <form class="register-form">
+                            <center><h1 class="main-heading"><u>Register Form</u></h1></center>
+                            <input type="text" placeholder="user name"/>
+                            <input type="text" placeholder="email-id"/>
+                            <input type="password" placeholder="password"/>
+                            <button>REGISTER</button>
+                            <p class="message"><u>Already Registered?</u><a href="#">Login</a>,
+                            </p>
+                        </form>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+</script>
+<script>
+    $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+</script>    
+    </body>
+</html>

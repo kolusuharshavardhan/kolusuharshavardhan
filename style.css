@@ -1,0 +1,290 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+}
+body{
+    background-color: darkgray;
+    background-position: center;
+    background-size: cover; 
+}
+.nav{
+   background:rgb(173, 173, 252);
+    height: 80px;
+    position: sticky;
+    align-items: center;
+    display: flex;
+    z-index: 999;
+    justify-content: center;
+    font-size: 1.2rem;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav__log{
+    margin-right: 600px;
+    font-size: 2rem;
+    background-color: rgb(182, 53, 96);
+
+    background-size: 100%;
+    align-items: center;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+}
+nav__container{
+    margin: 0 auto;
+    padding: 0px 50px;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    max-width: 1300px;
+    background-color: seashell;
+}
+
+.nav__menu{
+    display: flex;
+    list-style: none;
+}
+u1{
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__links{
+    margin-right: 30px;
+    padding: 0 1rem;
+    color: rgb(36, 7, 7);
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: brown;
+    background: beige;
+}
+
+.nav__btn{
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    transition: all 0.5s ease;
+    background: cornflowerblue;
+    
+}
+
+ @media screen and (max-width: 1000px) {
+     .navbar__container{
+        width: 100%;
+        max-width: 1300px;
+        padding: 0%;
+        height: 80px;
+         display: flex;
+         justify-content: space-between;
+         z-index: 1;
+     }
+    }
+    .nav__links{
+        transition: all 0.3s ease;
+        color: #812fdfe8;
+    }
+
+    u1 li a:hover{
+        color: rgb(233, 49, 24);
+        border-bottom: 3px solid rgb(226, 77, 164);
+    }
+    .clear{
+        clear: both;
+    }
+
+    .welcomDiv{
+    background-color: coral;
+    margin-left: 70px;
+    float: left; 
+    padding: 20px;
+    width: 80%;
+    }
+    .newsletter{
+        margin-right: 70px;
+        margin-top: 90px;
+        float: right;
+        padding: 30px;
+        width: 80%;
+    }
+.web{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+ .details{
+    flex: basis 50%; 
+     min-width: 300px;
+    }
+ .form-box{
+     width: 300px;
+     height: 460px;
+    position: relative;
+    top: 20px;
+    left: 350px;
+    right: 190px;
+    margin-right: 520px;
+    background: rgba(0,0,0,0.6);
+    }
+    
+    .main-heading{
+    color: orangered;
+     padding-bottom: 20px;
+     }
+    
+    .form {
+    position: relative;
+     margin: 0 auto 100px;
+     padding: 45px;
+    text-align: center;
+    }
+    
+    .form input{
+        font-family: sans-serif;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        margin: 0 0 15px;
+        padding: 15px;
+        font-size: 14px;
+    }
+    
+    .form button{
+    font-family: sans-serif;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    background: coral;
+     }
+    
+    .form .message{
+    font-size: 12px;
+    margin: 15px 0 0;
+    color: white;
+     }
+    
+    .form .message a {
+    color: orangered;
+    text-decoration: none;
+    }
+    
+    .form .register-form{
+    display: none;
+    }
+    
+    .defination{
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    padding-left: 60px;
+    }
+    .form button:hover{
+        color: royalblue;
+    }
+    .form p a:hover{
+        color: royalblue;
+    }
+    .form u{
+        color: black;
+    }
+    u2{
+        position: relative;
+        width: 450px;
+        margin: 100px auto 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    u2 li{
+        display: flex;
+        background:rgba(6, 247, 46, 1);
+        padding: 5px 5px;
+        color: rgba(69, 208, 233, 0.959);
+        margin: 20px 30px;
+        transition: 0.5s;
+        width: 450px;
+        margin-left: 520px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    u2 li:nth-child(1){
+        background:rgb(5, 27, 1);
+    }
+    u2 li:nth-child(2){
+        background: rgb(5, 27, 1);
+    }
+    u2 li:nth-child(3){
+        background: rgb(5, 27, 1);
+    }
+    u2 li:nth-child(4){
+        background: rgb(5, 27, 1);
+    }
+    u2 li:nth-child(5){
+        background: rgb(5, 27, 1);
+    }
+    u2 li:nth-child(6){
+        background: rgb(5, 27, 1);
+    }
+    u2 li span:nth-child(1){
+        width: 200px;
+    }
+    u2 li span:nth-child(2){
+        width: 400px;
+    }
+     u2 li span:nth-child(3){
+        width: 400px;
+    }
+    u2 li span:nth-child(4){
+        width: 800px;
+    }
+    u2 li span:nth-child(5){
+        width: 900px;
+        text-align: right;
+    } 
+    u2 li span:nth-child(6){
+        width: 1000px;
+        text-align: right;
+    }
+u2 li:hover{
+    transform: scale3d(1.06);
+    background: #ff3772;
+}
+
+    
